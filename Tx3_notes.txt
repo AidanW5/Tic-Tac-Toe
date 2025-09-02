@@ -1,0 +1,14 @@
+To do
+    --Create X's and O's
+        --onclick
+        --make sure to click in squares
+        --make sure cannot click on lines
+    --Buttons
+        --Create Play now button
+        --Select x or o
+        --Play again or reset button
+    --Design
+        --Keep track of score
+            --Draw or three in a row
+        --Be able to say x or o won
+        
