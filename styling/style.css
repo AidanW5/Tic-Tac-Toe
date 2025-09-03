@@ -1,13 +1,6 @@
 :root {
-    /*vertical lines*/
-    --line-color: #000000;
-    --line-height-vert: 70%;
-    --line-width-vert: 2%;
-    --border-radius: 5rem;
-
-    /*horizontal lines*/
-    --line-height-horz: 3.721%;
-    --line-width-horz: 55%; 
+    /*Board border*/
+    --border: 1rem solid #000000;
 }
 
 body {
@@ -23,42 +16,69 @@ body {
     height: 43rem;
     width: 80rem;
     margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
 }
 
-#vert1 {
-    background-color: var(--line-color);
-    height: var(--line-height-vert);
-    width: var(--line-width-vert);
-    border-radius: var(--border-radius);
-    margin-top: 8%;
-    margin-left: 40%;
+.play_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#vert2 {
-    background-color: var(--line-color);
-    height: var(--line-height-vert);
-    width: var(--line-width-vert);
-    border-radius: var(--border-radius);
-    margin-top: -37.65%;
-    margin-left: 60%;
+#play_now {
+    font-size: 5rem;
+    background-color: #40B1BD;
+    border: 0.75rem solid #000000;
+    border-radius: 5rem;
+    padding: 1.5rem;
 }
 
-#horz1 {
-    background-color: var(--line-color);
-    height: var(--line-height-horz);
-    width: var(--line-width-horz);
-    border-radius: var(--border-radius);
-    margin-top: -28%;
-    margin-left: 24%;
+#play_now:hover {
+    color: #ffffff;
 }
 
-#horz2 {
-    background-color: var(--line-color);
-    height: var(--line-height-horz);
-    width: var(--line-width-horz);
-    border-radius: var(--border-radius);
-    margin-top: 15%;
-    margin-left: 24%;
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 7%;
+}
+
+#square1 {
+    border-right: var(--border); border-bottom: var(--border);
+}
+
+#square2 {
+    border-left: var(--border); border-right: var(--border); border-bottom: var(--border);
+}
+
+#square3 {
+    border-left: var(--border); border-bottom: var(--border);
+}
+
+#square4 {
+   border-top: var(--border); border-right: var(--border); border-bottom: var(--border);
+}
+
+#square5 {
+    border: var(--border);
+}
+
+#square6 {
+   border-top: var(--border); border-left: var(--border); border-bottom: var(--border);
+}
+
+#square7 {
+    border-top: var(--border); border-right: var(--border);
+}
+
+#square8 {
+  border-left: var(--border); border-top: var(--border); border-right: var(--border); 
+}
+
+#square9 {
+   border-top: var(--border); border-left: var(--border);
 }
 
 

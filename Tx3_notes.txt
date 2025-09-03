@@ -4,7 +4,7 @@ To do
         --make sure to click in squares
         --make sure cannot click on lines
     --Buttons
-        --Create Play now button
+        --$Create Play now button
         --Select x or o
         --Play again or reset button
     --Design
