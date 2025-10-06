@@ -38,6 +38,39 @@ body {
     color: #ffffff;
 }
 
+.play_card > p {
+    color: #000000;
+    font-size: 15rem;
+}
+
+#x {
+    padding: 2%;
+}
+
+#x:hover {
+    background-color: #FF7700;
+    color: #ffffff;
+}
+
+#x.special {
+    background-color: #FF7700;
+    color: #ffffff;
+}
+
+#o {
+    padding: 2%;
+}
+
+#o:hover {
+    background-color: #D10202;
+    color: #ffffff;
+}
+
+#o.special {
+    background-color: #D10202;
+    color: #ffffff;
+}
+
 .board {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

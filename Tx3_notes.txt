@@ -5,7 +5,9 @@ To do
         --make sure cannot click on lines
     --Buttons
         --$Create Play now button
-        --Select x or o
+        --$Select x or o
+            --$Only able to click x or o
+            --Get x or o value for board
         --Play again or reset button
     --Design
         --Keep track of score
