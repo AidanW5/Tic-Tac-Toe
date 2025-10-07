@@ -8,6 +8,8 @@ To do
         --$Select x or o
             --$Only able to click x or o
             --Get x or o value for board
+                --Get x or o inner content
+            --Store inner content
         --Play again or reset button
     --Design
         --Keep track of score
